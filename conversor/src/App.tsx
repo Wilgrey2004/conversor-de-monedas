@@ -1,5 +1,3 @@
-
-
 import React, { useRef, useState } from "react";
 import "./App.css";
 
@@ -36,6 +34,8 @@ function App() {
         "flex flex-col justify-center items-center border-2 border-green-500 h-screen"
       }
     >
+
+      <h1 className="font-bold text-3xl">Combersor de monedas</h1>
       <input
         onChange={handleChange}
         ref={inputRef}
